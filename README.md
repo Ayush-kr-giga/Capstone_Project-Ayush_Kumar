@@ -30,10 +30,8 @@ Guiding throughout the project journey.
 
 ## 🚀 How to Run
 
-	1.	Clone this repository:
-    
-    ```
-    git clone https://github.com/Ayush-kr-giga/Capstone_Project-Ayush_Kumar.git
-    ```
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Ayush-kr-giga/Capstone_Project-Ayush_Kumar.git
 
-    2.	Open the index.html file in your browser to view the project.
+2. Open the index.html file in your browser to view the project.   
