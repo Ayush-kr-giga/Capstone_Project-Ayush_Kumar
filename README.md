@@ -18,15 +18,22 @@ This repository contains the capstone project for the **Newton School of Technol
 
 ## 📅 Timeline
 
-- **Progress Tracking:** 13th December 2024  
-- **Final Submission:** 20th December 2024  
-  - Hosted Project Link  
-  - GitHub Repository  
-  - Screen Recording of the Explanation  
-
+- **Started:** 8th December 2024  
+- **Final Submission:** 20th December 2024   
 ---
 
 ## 🤝 Mentor
 
 - **Shivam Gupta**
 Guiding throughout the project journey.
+
+
+## 🚀 How to Run
+
+	1.	Clone this repository:
+    
+    ```
+    git clone https://github.com/Ayush-kr-giga/Capstone_Project-Ayush_Kumar.git
+    ```
+
+    2.	Open the index.html file in your browser to view the project.
