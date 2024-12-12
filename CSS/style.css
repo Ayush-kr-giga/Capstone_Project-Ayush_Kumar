@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    /* width: Fixed(1,440px)px;
+    height: Hug(4,427px)px;
+    min-height: 900px;
+    top: -1583px;
+    left: 309px; */
+    /* padding: 0px 48px 0px 48px; */
+    gap: 0px;
+}
+
+
+
+                    /* ---------------------- NAVBAR START---------------------- */
+
+#navbar{
+    width: 1416px;
+    height: hug(80px);
+    display: flex;
+    justify-content: space-between;
+    font-size: 42px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0 48px;
+
+}
+
+#logo{
+    font-family: 'Bebas Neue';
+    width: hug(123px);
+    height: fixed(48px);
+    font-family: Bebas Neue;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+#page-links{
+    display: flex;
+    gap: 32px;
+    width: 354px;
+    height:32px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+}
+
+#home{
+    width: 48px;
+    height: 32px;
+}
+#projects{
+    width: 81px;
+    height: 32px;
+}
+#about{
+    width: 55px;
+    height: 32px;
+}
+#contacts{
+    width: 74px;
+    height: 32px;
+}
+
+
+
+.divider{
+    display: block;
+    width: 1510px;
+    height: 0;
+    border-top:1px solid black;
+    gap: 0;
+    
+    z-index: 2;
+}
+
+
+
+                    /* ---------------------- NAVBAR END---------------------- */
+
+
+                    /* ---------------------- CONTAINER START---------------------- */
+
+
+#container{
+    width: 1416px;
+    margin:0 48px;
+    background-color: antiquewhite;
+    height: 4179px;
+    padding: 48px 0;
+}
+
+                    
