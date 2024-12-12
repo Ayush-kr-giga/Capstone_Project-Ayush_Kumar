@@ -106,7 +106,7 @@ body{
     width: 100%;
     /* font-size: 16px */
     text-align: center;
-
+    /* gap: 48px; */
 
 }                    
 
@@ -117,10 +117,35 @@ body{
     text-align: center;
     line-height: 120px;
     letter-spacing: -2%;
+    margin: 0 0 48px 0;
+
 }
 
 #main img{
     width: 100%;
-    
+    margin: 0;
+}
+                    /* ---------------------- MAIN DIV END---------------------- */
+
+
+                    /* ---------------------- PROJECT START---------------------- */
+
+#project{
+    width: 100%;
+    padding-top:48px;
+
+}                    
+
+.row{
+    display: flex;
+    width: 100%;
+    gap: 3.17%;
+    padding-bottom: 48px;
+
 }
 
+.project_content{
+    /* width: 27.51%; */
+    width: 28%;
+    background-color: antiquewhite;
+}
