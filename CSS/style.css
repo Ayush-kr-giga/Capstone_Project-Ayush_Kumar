@@ -1,19 +1,8 @@
 body{
     margin:0;
-    /* width: Fixed(1,440px)px;
-    height: Hug(4,427px)px;
-    min-height: 900px;
-    top: -1583px;
-    left: 309px; */
-    /* padding: 0px 48px 0px 48px; */
-    gap: 0px;
-
     font-family: 'Bebas Neue';
 
 }
-
-
-
                     /* ---------------------- NAVBAR START---------------------- */
 
 #navbar{
@@ -38,8 +27,6 @@ body{
     line-height: 42px;
     letter-spacing: -0.04em;
     text-align: left;
-    /* text-underline-position: from-font;
-    text-decoration-skip-ink: none; */
 
 }
 
@@ -77,7 +64,7 @@ body{
 
 .divider{
     display: block;
-    width: 1510px;
+    width: 100vw;
     height: 0;
     border-top:1px solid black;
     gap: 0;
@@ -284,7 +271,144 @@ body{
 #contact_form{
     width: 93.65vw;
     margin: 0 3.17vw;
-    background-color: aqua;
-    padding-top: 10vh;
-    height: 70vh;
+    /* background-color: aqua; */
+    /* padding-top: 10vh; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #212020;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#form button {
+    background: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 2vh;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#form button:hover {
+    background: #2f3030;
+}
+textarea {
+    resize: none;
+}
+
+#form{
+    width: 29%;
+}
+
+#form h1{
+    font-family: Bebas Neue;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+#form p{
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 5vh;
+
+}
+
+#form a{
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    margin-top: 2vh;
+
+}
+
+#form a:hover{
+    text-decoration: underline;
+}
+
+                    /* ---------------------- CONTACT_FORM END ---------------------- */
+
+
+
+
+                    /* ---------------------- FOOTER START ---------------------- */
+
+footer{
+    width: 93.65vw;
+    margin: 0 3.17vw;
+    height: 10vh;
+    padding: 4vh 0;
+    /* background-color: #2f3030; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}          
+
+footer p{
+    font-family: Bebas Neue;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+footer button{
+    width: 170px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 8px ;
+    border: 1px 0px 0px 0px;
+
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #fff;
+
+}
+
+
+                    /* ---------------------- FOOTER END ---------------------- */
+
+
