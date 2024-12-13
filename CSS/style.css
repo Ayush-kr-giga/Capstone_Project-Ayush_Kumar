@@ -72,6 +72,13 @@ body{
     padding:0 ;
 }
 
+.nav{
+    transition: text-decoration 2s ease-in;
+}
+
+.nav:hover{
+    text-decoration: underline;
+}
 
 
                     /* ---------------------- NAVBAR END---------------------- */
@@ -119,7 +126,7 @@ body{
 #project{
     width:93.644vw;
     padding-top:3.175vw;
-
+    
 }                    
 
 .row{
@@ -127,11 +134,12 @@ body{
     width: 100%;
     gap: 3.17%;
     padding-bottom: 3.175vw;
-
+    
 }
 
 .project_content{
     width: 32%;
+    transition: all ease 0.6s ;
 }
 
 .project_content img{
@@ -152,6 +160,10 @@ body{
 .project_detail{
     font-size:1.124vw;
     
+}
+
+.project_content:hover{
+    transform: scale(1.07);
 }
 
 
@@ -261,6 +273,7 @@ form {
 label {
     margin-bottom: 1vw;
     color: #212020;
+    font-size: 1.058vw;
 }
 
 input, textarea {
