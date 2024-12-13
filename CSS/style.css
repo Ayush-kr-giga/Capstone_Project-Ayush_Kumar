@@ -7,24 +7,24 @@ body{
 
 #navbar{
     width: 93.65vw;
-    margin: 0 3.17vw;
-    height: hug(1.83%);
+    margin: 0 auto;
+    height: 2.778vw;
     display: flex;
     justify-content: space-between;
-    font-size: 42px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    font-size: 2.778vw;
+    padding-top: 1.058vw;
+    padding-bottom: 1.058vw;
 
 }
 
 #logo{
     font-family: 'Bebas Neue';
-    width: hug(8.13%);
-    height: fixed(1.1%);
-    font-family: Bebas Neue;
-    font-size: 42px;
+    width: 7.97vw;
+    height: 2.778vw;
+    font-family: 'Bebas Neue';
+    font-size: 2.778vw;
     font-weight: 400;
-    line-height: 42px;
+    line-height: 2.778vw;
     letter-spacing: -0.04em;
     text-align: left;
 
@@ -32,31 +32,31 @@ body{
 
 #page-links{
     display: flex;
-    gap: 32px;
-    width: 23.41%;
-    height:0.73%;
+    gap: 2.116vw;
+    width: 23.2vw;
+    height:2.778vw;
     font-family: 'Bebas Neue';
     font-weight: 400;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 1.852vw;
+    line-height: 2.116vw;
     letter-spacing: -1%;
 }
 
 #home{
-    width: 48px;
-    height: 0.73%;
+    width: 3.175vw;
+    height: 2.778vw;
 }
 #projects{
-    width: 81px;
-    height: 0.73%;
+    width: 5.357vw;
+    height: 2.778vw;
 }
 #about{
-    width: 55px;
-    height: 0.73%;
+    width: 3.638vw;
+    height: 2.778vw;
 }
 #contacts{
-    width: 74px;
-    height: 0.73%;
+    width: 4.894vw;
+    height: 2.778vw;
 }
 
 
@@ -83,9 +83,9 @@ body{
 
 #container{
     width: 93.65vw;
-    margin: 0 3.17vw;
+    margin: 0 auto;
     /* height: 96%; */
-    padding: 48px 0;
+    padding: 3.175vw 0;
 }
 
 
@@ -97,19 +97,19 @@ body{
     /* font-size: 16px */
     text-align: center;
     /* gap: 48px; */
-    padding: 96px 0 96px 0;
+    padding: 6.349vw 0 6.349vw 0;
 
 
 }                    
 
 #main h1{
 
-    font-size:120px;
+    font-size:7.937vw;
     font-weight: 400;
     text-align: center;
-    line-height: 120px;
+    line-height: 7.937vw;
     letter-spacing: -2%;
-    margin: 0 0 48px 0;
+    margin: 0 0 3.175vw 0;
 
 }
 
