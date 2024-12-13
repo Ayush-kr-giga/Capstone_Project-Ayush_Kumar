@@ -68,7 +68,6 @@ body{
     height: 0;
     border-top:1px solid black;
     gap: 0;
-    /* z-index: 2; */
     margin: 0;
     padding:0 ;
 }
@@ -84,7 +83,6 @@ body{
 #container{
     width: 93.65vw;
     margin: 0 auto;
-    /* height: 96%; */
     padding: 3.175vw 0;
 }
 
@@ -94,12 +92,8 @@ body{
 #main{
     display: block;
     width: 100%;
-    /* font-size: 16px */
     text-align: center;
-    /* gap: 48px; */
     padding: 6.349vw 0 6.349vw 0;
-
-
 }                    
 
 #main h1{
@@ -123,8 +117,8 @@ body{
                     /* ---------------------- PROJECT START---------------------- */
 
 #project{
-    width: 100%;
-    padding-top:48px;
+    width:93.644vw;
+    padding-top:3.175vw;
 
 }                    
 
@@ -132,14 +126,12 @@ body{
     display: flex;
     width: 100%;
     gap: 3.17%;
-    padding-bottom: 48px;
+    padding-bottom: 3.175vw;
 
 }
 
 .project_content{
-    /* width: 27.51%; */
     width: 32%;
-    /* background-color: antiquewhite; */
 }
 
 .project_content img{
@@ -149,16 +141,17 @@ body{
 .project_content p{
     width: 100%;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.587vw;
     font-family: 'Roboto Mono';
     margin: 0;
 }
 
 .project_title{
-    font-size: 20px;
+    font-size: 1.323vw;
 }
-.project_details{
-    font-size:17px;
+.project_detail{
+    font-size:1.124vw;
+    
 }
 
 
@@ -168,8 +161,7 @@ body{
 
 #description{
     width: 93.65vw;
-    padding: 96px 0;
-    /* background-color: aliceblue; */
+    padding: 6.349vw 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,10 +169,10 @@ body{
 }                    
 
 #description p{
-    width: 67.16%;
+    width: 62.831vw;
     margin: 0;
-    font-size: 48px;
-    line-height: 52px;
+    font-size: 3.175vw;
+    line-height: 3.439vw;
     font-weight: 400;
     text-align: center;
 }
@@ -193,36 +185,29 @@ body{
 #services{
     width: 93.65vw;
     display: flex;
-    /* height:61.926vh; */
     justify-content: space-between;
-    padding:48px 0;
+    padding:3.175vw 0;
 }
 #services>p{
     font-family: Bebas Neue;
-    font-size: 28px;
+    font-size: 1.852vw;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 2.116vw;
     letter-spacing: -0.01em;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 .services_content{
     display: flex;
-    /* justify-content: space-between; */
     gap: 14%;
-    width:48.21%;
+    width:45.146vw;
 }               
 
 .services_content p{
     font-family: Roboto Mono;
-    font-size: 20px;
+    font-size: 1.323vw;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.587vw;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 
 }
 
@@ -235,33 +220,25 @@ body{
     width: 93.65vw;
     display: flex;
     justify-content: space-between;
-    padding: 96px 0;
+    padding: 6.349vw 0;
     align-items: center;
 }              
 
 #contact h1{
     font-family: Bebas Neue;
-    font-size: 48px;
+    font-size: 3.175vw;
     font-weight: 400;
-    line-height: 52px;
-    letter-spacing: -0.01em;
+    line-height: 3.439vw;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 #contact p{
-    width: 46.42%;
+    width: 43.472vw;
     font-family: Roboto Mono;
-    font-size: 24px;
+    font-size: 1.587vw;
     font-weight: 400;
-    line-height: 32px;
-    letter-spacing: -0.005em;
+    line-height: 2.116vw;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
                     /* ---------------------- CONTACTS END---------------------- */
 
@@ -270,14 +247,11 @@ body{
                     
 #contact_form{
     width: 93.65vw;
-    margin: 0 3.17vw;
-    /* background-color: aqua; */
-    /* padding-top: 10vh; */
-    height: 90vh;
+    margin: 7vw auto;
+    height: 50.193vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 form {
     display: flex;
@@ -285,25 +259,25 @@ form {
 }
 
 label {
-    margin-bottom: 5px;
+    margin-bottom: 1vw;
     color: #212020;
 }
 
 input, textarea {
-    margin-bottom: 15px;
-    padding: 10px;
+    margin-bottom: 0.992vw;
+    padding: 0.661vw;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1.058vw;
 }
 #form button {
     background: #000000;
     color: #fff;
     border: none;
-    padding: 10px;
-    margin-top: 2vh;
+    padding: 0.661vw;
+    margin-top: 0.767vw;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1.058vw;
     cursor: pointer;
     border-radius: 8px;
 }
@@ -316,42 +290,36 @@ textarea {
 }
 
 #form{
-    width: 29%;
+    width:30.116vw;
 }
 
 #form h1{
     font-family: Bebas Neue;
-    font-size: 28px;
+    font-size: 1.852vw;
     font-weight: 400;
-    line-height: 32px;
-    letter-spacing: -0.01em;
+    line-height: 2.116vw;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 #form p{
     font-family: Roboto Mono;
-    font-size: 15px;
+    font-size: 0.992vw;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.323vw;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin-bottom: 5vh;
+    margin-bottom: 1.918vw;
 
 }
 
 #form a{
     font-family: Roboto Mono;
-    font-size: 15px;
+    font-size: 0.992vw;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.323vw;
     text-align: center;
     text-decoration: none;
     color:black;
-    margin-top: 2vh;
+    margin-top: 0.767vw;
 
 }
 
@@ -368,10 +336,9 @@ textarea {
 
 footer{
     width: 93.65vw;
-    margin: 0 3.17vw;
-    height: 10vh;
-    padding: 4vh 0;
-    /* background-color: #2f3030; */
+    margin: 0 auto;
+    height: 3.836vw;
+    padding: 1.534vw 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -379,33 +346,29 @@ footer{
 
 footer p{
     font-family: Bebas Neue;
-    font-size: 28px;
+    font-size: 1.852vw;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 2.116vw;
     letter-spacing: -0.01em;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 footer button{
-    width: 170px;
-    height: 48px;
-    padding: 12px 24px 12px 24px;
+    width: 14.243vw;
+    height: 3.175vw;
+    padding: 0.794vw 1.587vw;
     gap: 0px;
     border-radius: 8px ;
     border: 1px 0px 0px 0px;
-
-    font-family: Roboto Mono;
-    font-size: 20px;
+    font-family: 'Roboto Mono';
+    font-size: 1.323vw;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.587vw;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     background-color: #fff;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
